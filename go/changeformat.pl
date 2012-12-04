@@ -13,3 +13,4 @@ while (my $line=<IN>)
 	next if $gene eq 'Ro_gene';
 	print OUT $goslim, "\tIEA\t", $gene, "\n";
 }
+
